@@ -1,0 +1,41 @@
+root = true
+
+# ---------------------------------------------------------------------------
+# Regras padrão para TODOS os arquivos do repositório
+# ---------------------------------------------------------------------------
+[*]
+charset = utf-8                    # Define a codificação dos arquivos como UTF-8
+end_of_line = lf                   # Define a quebra de linha como LF (Unix)
+insert_final_newline = true        # Garante uma linha em branco no final do arquivo
+trim_trailing_whitespace = true    # Remove espaços em branco no fim das linhas
+indent_style = space               # Usa espaços em vez de tabs para indentação
+indent_size = 2                    # Define 2 espaços por nível de indentação (fallback)
+
+# ---------------------------------------------------------------------------
+# Java — regras do Google Java Style Guide
+# ---------------------------------------------------------------------------
+[*.java]
+indent_size = 2                              # Define 2 espaços por nível de indentação
+ij_continuation_indent_size = 4              # Define 4 espaços para linhas de continuação
+max_line_length = 100                        # Define o limite de 100 colunas por linha
+ij_java_align_multiline_parameters = false   # Desativa o alinhamento vertical de parâmetros em várias linhas
+ij_java_names_count_to_use_import_on_demand = 999   # Desativa a geração automática de import com wildcard (import pacote.*)
+ij_java_class_count_to_use_import_on_demand = 999   # Desativa a geração automática de import estático com wildcard
+
+# ---------------------------------------------------------------------------
+# XML (pom.xml e outros arquivos de configuração Maven)
+# ---------------------------------------------------------------------------
+[*.xml]
+indent_size = 4     # Define 4 espaços por nível de indentação
+
+# ---------------------------------------------------------------------------
+# Markdown
+# ---------------------------------------------------------------------------
+[*.md]
+trim_trailing_whitespace = false   # Mantém espaços no fim da linha (usados no Markdown para forçar quebra de linha)
+
+# ---------------------------------------------------------------------------
+# YAML
+# ---------------------------------------------------------------------------
+[*.{yml,yaml}]
+indent_size = 2     # Define 2 espaços por nível de indentação
