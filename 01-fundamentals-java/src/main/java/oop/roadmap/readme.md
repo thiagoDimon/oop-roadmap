@@ -29,3 +29,11 @@
 3. Um objeto é uma instância de uma classe
 
 ### Exemplo de uma classe: `Bicycle.java`
+
+## Herança
+
+1. Diferentes tipos de objetos geralmente tem uma quantidade de características comum entre si.
+2. Bicicletas de montanha, bicicletas de estrada e bicicletas tandem, por exemplo compartilham características das bicicletas (velocidade atual, marcha atual, cor).
+3. A POO permite que as classes herdem o estado e o comportamento comumente usado de outras classes.
+4. Em um exemplo a `Bicycle.java` se torna a superclasse de `MountainBike.java`, `RoadBike.java` e `TandemBike.java`.
+5. Uma observação: deve-se tomar cuidado para documentar adequadamente o estado e o comportamento que cada superclasse define

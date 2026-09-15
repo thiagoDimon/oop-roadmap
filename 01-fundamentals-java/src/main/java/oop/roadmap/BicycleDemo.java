@@ -22,6 +22,31 @@ public class BicycleDemo {
     bike2.changeGear(3);
     bike2.printStates();
 
+    // Cria três tipos diferentes de bicicletas
+    MountainBike mountainBike = new MountainBike();
+    RoadBike roadBike = new RoadBike();
+    TandemBike tandemBike = new TandemBike();
+
+    // Chama ações das bicicletas
+
+    // Mountain Bike
+    System.out.println(" ===== MountainBike ===== ");
+    mountainBike.speedUp(10);
+    mountainBike.adjustSuspensionType("Off-Road");
+    mountainBike.printStates();
+
+    // Road Bike
+    System.out.println(" ===== RoadBike ===== ");
+    roadBike.changeGear(2);
+    roadBike.changeHandlebarPosition("Top Bar");
+    roadBike.printStates();
+
+    // Tandem Bike
+    System.out.println(" ===== TandemBike ===== ");
+    tandemBike.coordinateRiders();
+    tandemBike.changeGear(4);
+    tandemBike.printStates();
+
   }
 
 }
