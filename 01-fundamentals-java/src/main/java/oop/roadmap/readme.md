@@ -74,4 +74,20 @@
 
 - `public`: o campo é acessível a partir de todas as classes.
 - `private`: o campo é acessível apenas a partir de dentro da sua própria classe.
-- 
+
+## Tipos de dados
+
+> Os tipos de dados são divididos em **primitivos** (por valor) e **não primitivos** (por referência).  Existem oito tipos primitivos básicos, que armazenam valores simples como números inteiros, decimais, caracteres e booleanos. 
+
+- Tipos primitivos:
+1. **byte**: 8 bits, inteiro de -128 a 127.
+2. **short**: 16 bits, inteiro de -32.768 a 32.767.
+3. **int**: 32 bits, inteiro de -2.147.483.648 a 2.147.483.647.
+4. **long**: 64 bits, inteiro para valores muito grandes.
+5. **float**: 32 bits, ponto flutuante de precisão simples. 
+6. **double**: 64 bits, ponto flutuante de precisão dupla.
+7. **boolean**: 1 bit, valores `true` ou `false`.
+8. **char**: 16 bits, único caractere Unicode. 
+
+- Tipos não primitivos:
+> Incluem String, Arrays e Classes, são criados pelo programador, podem ter valor nulo e possuem métodos associados.  Diferente dos primitivos, que têm tamanho fixo e são imutáveis, os não primitivos permitem a execução de operações complexas através de métodos.
