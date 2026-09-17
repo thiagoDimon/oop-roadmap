@@ -50,3 +50,28 @@
 1. É um namespace que organiza um conjunto de classes e interfaces relacionadas.
 2. A plataforma Java fornece uma enorme biblioteca de classes (um conjunto de pacotes). Essa biblioteca é conhecida como "Interface de Programação de Aplicativos" ou "API".
 3. Exemplos de APIs: String, File, Socket, Objetos GUI, entre outros.
+
+## Construtor
+
+1. Bloco de código semelhante a métodos, utilizados para iniciar novos objetos.
+2. A principal função é garantir que o objeto seja criado com um estado válido.
+3. Em Java, é possível definir múltiplos construtores (sobrecarga) com diferentes listas.
+
+## Declaração de variáveis membros
+
+1. Variáveis membros de uma classe são chamadas de `fields`.
+2. Variáveis em uma método ou em um bloco de código são chamadas de `variáveis locais`.
+3. Variáveis em declaração de métodos são chamados de `parâmetros`
+
+### Fields
+
+> Declaração de variáveis **fields** são compostos por três componentes, em ordem:
+1. Zero ou mais modificadores, como `public` ou `private`.
+2. O tipo do `field`.
+3. O nome do `field`.
+
+### Controlando quem tem acesso a um membro
+
+- `public`: o campo é acessível a partir de todas as classes.
+- `private`: o campo é acessível apenas a partir de dentro da sua própria classe.
+- 
