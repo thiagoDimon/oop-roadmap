@@ -37,3 +37,16 @@
 3. A POO permite que as classes herdem o estado e o comportamento comumente usado de outras classes.
 4. Em um exemplo a `Bicycle.java` se torna a superclasse de `MountainBike.java`, `RoadBike.java` e `TandemBike.java`.
 5. Uma observação: deve-se tomar cuidado para documentar adequadamente o estado e o comportamento que cada superclasse define
+
+## Interface
+
+1. É um grupo de métodos relacionados com corpos vazios.
+2. Se o comportamento de uma bicicleta for especificado como interface pode aparecer da seguinte forma: exemplo em `IBicycle.java`.
+3. Implementar uma interface permite que a classe seja mais formal e previsivel em relação aos seus comportamentos.
+4. As interfaces formam um "contrato" entre a classe e o mundo exterior.
+
+## Pacote
+
+1. É um namespace que organiza um conjunto de classes e interfaces relacionadas.
+2. A plataforma Java fornece uma enorme biblioteca de classes (um conjunto de pacotes). Essa biblioteca é conhecida como "Interface de Programação de Aplicativos" ou "API".
+3. Exemplos de APIs: String, File, Socket, Objetos GUI, entre outros.

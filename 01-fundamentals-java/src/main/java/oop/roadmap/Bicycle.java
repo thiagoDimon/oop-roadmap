@@ -1,6 +1,6 @@
 package oop.roadmap;
 
-public class Bicycle {
+public class Bicycle implements IBicycle{
 
   // Representam o estado
   int cadence = 0;
@@ -8,19 +8,23 @@ public class Bicycle {
   int gear = 1;
 
   // Representam os métodos (ações)
-  void changeCadence(int newValue) {
+  @Override
+  public void changeCadence(int newValue) {
     cadence = newValue;
   }
 
-  void changeGear(int newValue) {
+  @Override
+  public void changeGear(int newValue) {
     gear = newValue;
   }
 
-  void speedUp(int increment) {
+  @Override
+  public void speedUp(int increment) {
     speed = speed + increment;
   }
 
-  void applyBrakes(int decrement) {
+  @Override
+  public void applyBrakes(int decrement) {
     speed = speed - decrement;
   }
 
